@@ -8,7 +8,8 @@ public class HotelTestCase {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		HotelReservation obj = new HotelReservation();// creating object of HotelReservation
+		assertEquals(obj.addHotelLists(), true);// testing unit test
 	}
 
 }
