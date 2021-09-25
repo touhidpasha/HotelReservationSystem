@@ -1,6 +1,7 @@
 package myPackage;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /*this is main class,
@@ -17,9 +18,18 @@ public class HotelReservation {
 		list.add(new Hotel("Bridgewood", 160, 110, 60, 50));
 		return true;
 	}
-
+	public int findCheapestHotelInWeekDaysForRegularDays(List arr) {
+		return(arr.size()*list.get(0).weekDayForRegular);//multiplying least prize with number of days in weekdays
+		
+	}
 	public static void main(String[] args) {
+		List<String> days=new ArrayList<String>();
 		HotelReservation obj1 = new HotelReservation();// creating object of HotelResrvation
 		obj1.addHotelLists();// calling function to add details
+		days.add("10sep2020");
+		days.add("11sep2020");
+		System.out.println(obj1.findCheapestHotelInWeekDaysForRegularDays(days));
 	}
+	
+	
 }
