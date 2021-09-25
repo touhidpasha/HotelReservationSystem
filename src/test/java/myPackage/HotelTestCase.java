@@ -17,7 +17,8 @@ public class HotelTestCase {
 		days.add("10sep2020");
 		days.add("11sep2020");
 		//assertEquals(obj.addHotelLists(), true);// testing unit test
-		assertEquals((obj1.findCheapestHotelInWeekDaysForRegularDays(days)),220);
+//		assertEquals((obj1.findCheapestHotelInWeekDaysForRegularDays(days)),220);
+		assertEquals((obj1.findBestRatedCheapestForRewardWeekdays(days)),400);
 	}
 
 }
