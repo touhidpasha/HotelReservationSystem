@@ -11,14 +11,14 @@ public class HotelTestCase {
 
 	@Test
 	public void test() {
-		
-		List<String> days=new ArrayList<String>();
+
+		List<String> days = new ArrayList<String>();
 		HotelReservation obj1 = new HotelReservation();// creating object of HotelResrvation
 		days.add("10sep2020");
 		days.add("11sep2020");
-		//assertEquals(obj.addHotelLists(), true);// testing unit test
+		// assertEquals(obj.addHotelLists(), true);// testing unit test
 //		assertEquals((obj1.findCheapestHotelInWeekDaysForRegularDays(days)),220);
-		assertEquals((obj1.findBestRatedCheapestForRewardWeekdays(days)),400);
+		assertEquals((obj1.findBestRatedCheapestForRewardWeekdayss(days)), 160);
 	}
 
 }
