@@ -13,9 +13,9 @@ public class HotelReservation {
 
 	// method for adding list of hotels with respctive prize values
 	public boolean addHotelLists() {
-		list.add(new Hotel("Lakewood", 110, 80, 90, 80));//here weekdays and weekend prizes are added
-		list.add(new Hotel("Ridgewood", 220, 100, 150, 40));
-		list.add(new Hotel("Bridgewood", 160, 110, 60, 50));
+		list.add(new Hotel("Lakewood", 110, 80, 90, 80,3));//here weekdays and weekend prizes are added
+		list.add(new Hotel("Ridgewood", 220, 100, 150, 40,4));
+		list.add(new Hotel("Bridgewood", 160, 110, 60, 50,5));
 		return true;
 	}
 	public int findCheapestHotelInWeekDaysForRegularDays(List arr) {
