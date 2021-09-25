@@ -6,9 +6,9 @@ public class Hotel {
 	 */
 	String hotelName;
 	int weekDayForRegular;
-	int weekDayForReward;
+	int weekDayForReward;//rates for reward customer during weekday
 	int weekendForRegular;
-	int weekendForReward;
+	int weekendForReward;//rates for reward customer during weekends
 	int rating;
 
 	Hotel(String hotelName, int weekDayForRegular, int weekDayForReward, int weekendForRegular, int weekendForReward,int rating) {
